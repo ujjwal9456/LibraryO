@@ -28,5 +28,10 @@ public class BaseController {
         return "Yes I am up";
     }
 
+    @RequestMapping("/home")
+    public String index(){
+        return "com/LibraryO/LibraryManagement/Views/Home.jsp";
+    }
+
 
 }
