@@ -13,5 +13,4 @@ public class LibraryManagementApplication {
 		SpringApplication.run(LibraryManagementApplication.class, args);
 		System.out.println("Ujjwal Shekhar");
 	}
-
 }
